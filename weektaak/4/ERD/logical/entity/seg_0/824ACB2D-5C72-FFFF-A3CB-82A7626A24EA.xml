@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="824ACB2D-5C72-FFFF-A3CB-82A7626A24EA" name="MATCH">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:18:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Max_score" id="2AD1314F-ABD0-3145-116F-564C00740558">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:18:49 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Query_coverage" id="7AE5A5E7-8329-172E-6125-FC5C5A4F51F0">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:19:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="E_value" id="3EF117A2-9005-1A26-14E9-CBF41E6E910D">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:20:09 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Accession_code" id="34D48DEC-D5C8-A0F6-0FA9-0B122C9929D2">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:20:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identity" id="161070E4-AD2A-7ED3-B036-8CE7EA8B9E16">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:21:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Positives" id="44132906-7502-0E32-667A-4DE97ABC154B">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:22:21 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gaps" id="8C915CF6-0213-AEBA-E0D8-D5715E06FEF5">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:24:06 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Frame" id="81A2ED66-6014-5511-C21F-FA9ED5D632F8">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:25:02 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATCH_description" id="977A79C6-495E-7D89-B235-17CF25A51616">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:26:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Header" id="F5B98615-5BDF-A4F0-EEF2-93582E7FDE5D">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:31:23 UTC</createdTime>
+<generatorID>376CA969-FC2C-0F9B-B8DF-8ABC6B3296A8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<referedAttribute>2058B3A5-E7AC-9B1A-8731-87045210369F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Query_id" id="F40D203D-A65E-462F-B7C6-BFE978315F20">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:33:03 UTC</createdTime>
+<generatorID>376CA969-FC2C-0F9B-B8DF-8ABC6B3296A8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<referedAttribute>D4DB0161-2C40-F13E-1886-C492F7198718</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="023BB5D4-B568-9633-8E86-FAEF44AC1E8E" name="MATCH PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:31:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5B98615-5BDF-A4F0-EEF2-93582E7FDE5D</attributeRef>
+<attributeRef>F40D203D-A65E-462F-B7C6-BFE978315F20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

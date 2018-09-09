@@ -1,0 +1,2842 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.8.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_177377</BlastOutput_query-ID>
+  <BlastOutput_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19525:2757_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>10</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_177377</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19525:2757_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|697976361|gb|KGM15509.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Actinotalea fermentans ATCC 43279 = JCM 9966 = DSM 3133]</Hit_def>
+  <Hit_accession>KGM15509</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.64</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>3.03882e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDVDGVLDLATSGAQLCKKYEEMVPGTDVYYEYSPESFTGTELEVAVRVCNAVLDVWEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD DG LD+AT+GA+LCKKYEEMVPGT+VYYEYSPESFTGTELE AVRVCNAVLDVWEPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1175254668|ref|WP_081802463.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Actinotalea ferrariae] &gt;gi|601042972|gb|EYR63741.1| 2-isopropylmalate synthase [Actinotalea ferrariae CF5-4]</Hit_def>
+  <Hit_accession>WP_081802463</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.484</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>7.45553e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDEDGIVDIAVTGARLCKKYEEMVPGTDVFYEYSPESYTGTELEFAVRVCNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+D+DG +DIA TGARLCKKYEEMVPGT+V+YEYSPES+TGTELEFAVRVCNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|736623156|ref|WP_034631338.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas cellasea] &gt;gi|697884815|gb|KGM01724.1| 2-isopropylmalate synthase [Cellulomonas cellasea DSM 20118]</Hit_def>
+  <Hit_accession>WP_034631338</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>2.95578e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQRDVVFRSDEDGIVDIAVSGARLCKKYEELVPDTEVFYEYSPESYTGTELEFAVRICNAVLDVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+R+VVFR+D+DG +DIA +GARLCKKYEE+VP TEV+YEYSPES+TGTELEFAVR+CNAVLDV+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1390628448|ref|WP_109132129.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. WB94] &gt;gi|1386589111|gb|PVU83795.1| 2-isopropylmalate synthase [Cellulomonas sp. WB94]</Hit_def>
+  <Hit_accession>WP_109132129</Hit_accession>
+  <Hit_len>1132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.329</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>7.53472e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>689</Hsp_hit-from>
+      <Hsp_hit-to>765</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRTDEDGVVDIATSGAHLCKKYEETVPGTEVYYEYSPESYTGTELEFAARVCNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFRTD+DG +DIAT+GA LCKKYEE VPGTEVYYEYSPES+TGTELEFA RVCNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|759918013|ref|WP_043603904.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas carbonis] &gt;gi|697971973|gb|KGM11830.1| 2-isopropylmalate synthase [Cellulomonas carbonis T26]</Hit_def>
+  <Hit_accession>WP_043603904</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.823</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>1.86409e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRSDEDGIVDIALEGARLCRKYEETIPGTEVFYEYSPESYTGTELEFALRICNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR+D+DG +DIA  GARLC+KYEE +PGTEV+YEYSPES+TGTELEFA+R+CNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1228351450|ref|WP_094180341.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. PSBB021] &gt;gi|1227463645|gb|ASR54862.1| 2-isopropylmalate synthase [Cellulomonas sp. PSBB021]</Hit_def>
+  <Hit_accession>WP_094180341</Hit_accession>
+  <Hit_len>597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.122</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>3.75058e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRDVVFRSDEDGIVDIAVSGARFCKKYEELVPDTEVYYEYSPESYTGTELEFAVRICNAVLEEWQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R+VVFR+D+DG +DIA +GAR CKKYEE+VP TEVYYEYSPES+TGTELEFAVR+CNAVL+ W+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|502882439|ref|WP_013117415.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas flavigena] &gt;gi|296021845|gb|ADG75081.1| 2-isopropylmalate synthase [Cellulomonas flavigena DSM 20109]</Hit_def>
+  <Hit_accession>WP_013117415</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.772</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>4.84424e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRADEDGIADIAVSGARFCKKYEELVPDTEVFYEYSPESYTGTELEYAVRVCNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR D+DG  DIA +GAR CKKYEE+VP TEV+YEYSPES+TGTELE+AVRVCNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1221969564|ref|WP_090032937.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas marina] &gt;gi|1097522783|emb|SFB16381.1| 2-isopropylmalate synthase [Cellulomonas marina]</Hit_def>
+  <Hit_accession>WP_090032937</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.772</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>5.25008e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFKSDEDGILDIAVQGARFCKKYAELVPDTEVFYEYSPESYTGTELEYAVRVVNAVLDVWEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVF++D+DG LDIA  GAR CKKY E+VP TEV+YEYSPES+TGTELE+AVRV NAVLDVWEPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|635641006|ref|WP_024287899.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. KRMCY2]</Hit_def>
+  <Hit_accession>WP_024287899</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.421</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>6.78555e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRSDEDGIVDLAVSGAHLCRKYEETIPGTEVRYEYSPESFTGTELEFAARVCNAVLDVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR+D+DG +D+A +GA LC+KYEE +PGTEV YEYSPESFTGTELEFA RVCNAVLDV+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1282064276|ref|WP_100422624.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Sediminihabitans luteus] &gt;gi|1280297432|gb|PJJ73938.1| 2-isopropylmalate synthase [Sediminihabitans luteus]</Hit_def>
+  <Hit_accession>WP_100422624</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.071</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>8.38073e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDEDGIVDIAVSGARLCKKFEESIPGTTVYYEYSPESYTGTELEFAARICNAVIEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+D+DG +DIA +GARLCKK+EE +PGT VYYEYSPES+TGTELEFA R+CNAV++V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|856989790|ref|WP_048342408.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. A375-1] &gt;gi|852397701|gb|KMM46246.1| 2-isopropylmalate synthase [Cellulomonas sp. A375-1]</Hit_def>
+  <Hit_accession>WP_048342408</Hit_accession>
+  <Hit_len>597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.071</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>9.03066e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRDVVFRSDEDGIVDIAVSGARFCKKYEELVPDTEVYYEYSPESYTGTELEFALRICNAVLEEWQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R+VVFR+D+DG +DIA +GAR CKKYEE+VP TEVYYEYSPES+TGTELEFA+R+CNAVL+ W+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|517966627|ref|WP_019136835.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas massiliensis]</Hit_def>
+  <Hit_accession>WP_019136835</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.369</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.51958e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIVDIAVSGARFCKKYEELVPDTEVFYEYSPESYTGTELEFALRICNAVLEEWQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG +DIA +GAR CKKYEE+VP TEV+YEYSPES+TGTELEFA+R+CNAVL+ W+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1073098415|ref|WP_069984727.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Isoptericola variabilis]</Hit_def>
+  <Hit_accession>WP_069984727</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.369</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.53796e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDMDGIVDIALTGARLCRKYEETVPGTTVFYEYSPESYTGTELEFAARICNEVLEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD DG +DIA TGARLC+KYEE VPGT V+YEYSPES+TGTELEFA R+CN VL+V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1175554579|ref|WP_082096278.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina flava]</Hit_def>
+  <Hit_accession>WP_082096278</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.019</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.86247e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDQILDIATHGAMLCQKFEEMIPDTQVFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+K+EEM+P T+V+YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|917498415|ref|WP_052104832.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas bogoriensis] &gt;gi|697974560|gb|KGM14303.1| 2-isopropylmalate synthase [Cellulomonas bogoriensis 69B4 = DSM 16987]</Hit_def>
+  <Hit_accession>WP_052104832</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.019</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.23914e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQRDVVFRTDQDGVVDIALEGARLCRKYEETIPGTDVYYEYSPESYTGTELEFAARICNEVLGVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+R+VVFRTDQDG +DIA  GARLC+KYEE +PGT+VYYEYSPES+TGTELEFA R+CN VL V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|657046038|ref|WP_029288930.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. HZM]</Hit_def>
+  <Hit_accession>WP_029288930</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.668</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>2.32994e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRDVVFRSDEDGIVDIAVSGARFCKKYEELVPDTDVYYEYSPESYTGTELEFALRICNAVLEEWQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R+VVFR+D+DG +DIA +GAR CKKYEE+VP T+VYYEYSPES+TGTELEFA+R+CNAVL+ W+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1011180735|ref|WP_062101558.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. B6] &gt;gi|960448387|gb|KSW29681.1| 2-isopropylmalate synthase [Cellulomonas sp. B6]</Hit_def>
+  <Hit_accession>WP_062101558</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.668</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>2.76179e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIADIAVSGARFCRKYEELIPDTEVFYEYSPESYTGTELEYAVRVCNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG  DIA +GAR C+KYEE++P TEV+YEYSPES+TGTELE+AVRVCNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|946293540|gb|KRD44805.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. Root930]</Hit_def>
+  <Hit_accession>KRD44805</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.318</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>2.79703e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRTDEDGIVDIAVSGARFCKKYEELVPDTDVFYEYSPESYTGTELEFALRICNAVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFRTD+DG +DIA +GAR CKKYEE+VP T+V+YEYSPES+TGTELEFA+R+CNAVL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|947424421|ref|WP_056090247.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. Root137] &gt;gi|945793692|gb|KQY47680.1| 2-isopropylmalate synthase [Cellulomonas sp. Root137]</Hit_def>
+  <Hit_accession>WP_056090247</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.318</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>2.79703e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRTDEDGIVDIAVSGARFCKKYEELVPDTDVFYEYSPESYTGTELEFALRICNAVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFRTD+DG +DIA +GAR CKKYEE+VP T+V+YEYSPES+TGTELEFA+R+CNAVL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1080116897|ref|WP_070318683.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas iranensis]</Hit_def>
+  <Hit_accession>WP_070318683</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.668</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>2.95056e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIADIAVSGARFCRKYEELIPDTEVFYEYSPESYTGTELEYAVRVCNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG  DIA +GAR C+KYEE++P TEV+YEYSPES+TGTELE+AVRVCNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1200065118|ref|WP_087510257.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas iranensis]</Hit_def>
+  <Hit_accession>WP_087510257</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.668</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>2.97856e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIADIAVSGARFCRKYEELIPDTEVFYEYSPESYTGTELEYAVRVCNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG  DIA +GAR C+KYEE++P TEV+YEYSPES+TGTELE+AVRVCNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|817173977|ref|WP_046528651.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. FA1]</Hit_def>
+  <Hit_accession>WP_046528651</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.668</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>2.97856e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIADIAVSGARFCRKYEELIPDTEVFYEYSPESYTGTELEYAVRVCNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG  DIA +GAR C+KYEE++P TEV+YEYSPES+TGTELE+AVRVCNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|947927972|ref|WP_056588103.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. Leaf334] &gt;gi|945057100|gb|KQR16522.1| 2-isopropylmalate synthase [Cellulomonas sp. Leaf334]</Hit_def>
+  <Hit_accession>WP_056588103</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.967</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.16107e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIVDIAVSGARFCRKYEELVPDTDVYYEYSPESYTGTELEFALRVCNAVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG +DIA +GAR C+KYEE+VP T+VYYEYSPES+TGTELEFA+RVCNAVL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|947140257|ref|WP_055913389.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. Root485] &gt;gi|945770697|gb|KQY24772.1| 2-isopropylmalate synthase [Cellulomonas sp. Root485]</Hit_def>
+  <Hit_accession>WP_055913389</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.967</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.36252e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIVDIAVSGARFCRKYEELVPDTDVYYEYSPESYTGTELEFALRVCNAVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG +DIA +GAR C+KYEE+VP T+VYYEYSPES+TGTELEFA+RVCNAVL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1054825201|ref|WP_066587768.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas timonensis]</Hit_def>
+  <Hit_accession>WP_066587768</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.967</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.57371e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRDVVFRSDEDGIVDIAVSGAQLCKKYEQTVPGTDVFYEYSPESYTGTELEFAARICNAVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R+VVFR+D+DG +DIA +GA+LCKKYE+ VPGT+V+YEYSPES+TGTELEFA R+CNAVLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|948270555|ref|WP_056928034.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Nocardioides sp. Soil805] &gt;gi|946480522|gb|KRF30589.1| 2-isopropylmalate synthase [Nocardioides sp. Soil805]</Hit_def>
+  <Hit_accession>WP_056928034</Hit_accession>
+  <Hit_len>578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.266</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>8.15029e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRRVVFGLDEDGILDIAVRGAEICKKYEELVPGTDVFYEYSPESYTGTELEFAVRICNAVLDVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R VVF  D+DG LDIA  GA +CKKYEE+VPGT+V+YEYSPES+TGTELEFAVR+CNAVLDV+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|518858052|ref|WP_020013942.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Promicromonospora sukumoe]</Hit_def>
+  <Hit_accession>WP_020013942</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.266</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>9.08741e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDQDGIVDIALDGAKLCRKLEETVPGTRVYYEYSPESYTGTELEFAVRICNEVIEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+DQDG +DIA  GA+LC+K EE VPGT VYYEYSPES+TGTELEFAVR+CN V++V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1011294657|ref|WP_062212039.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina oxidasica]</Hit_def>
+  <Hit_accession>WP_062212039</Hit_accession>
+  <Hit_len>588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.915</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.01745e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRKDMDEIMDIATHGAMLCQKFEETVPGTNVFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR D D  +DIAT GA LC+K+EE VPGT V+YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1181508082|ref|WP_084800639.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Promicromonospora kroppenstedtii]</Hit_def>
+  <Hit_accession>WP_084800639</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.915</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.20493e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDQDGIVDIALDGAKLCRKLEETVPGTRIYYEYSPESYTGTELEFAVRICNEVIEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+DQDG +DIA  GA+LC+K EE VPGT +YYEYSPES+TGTELEFAVR+CN V++V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|947352102|ref|WP_056026534.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. Leaf395] &gt;gi|945238774|gb|KQS96910.1| 2-isopropylmalate synthase [Cellulomonas sp. Leaf395]</Hit_def>
+  <Hit_accession>WP_056026534</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.2934e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIVDIAVSGARFCRKYEELVPDTDVFYEYSPESYTGTELEFALRVCNAVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG +DIA +GAR C+KYEE+VP T+V+YEYSPES+TGTELEFA+RVCNAVL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1387475750|gb|PVZ01916.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Promicromonospora sukumoe]</Hit_def>
+  <Hit_accession>PVZ01916</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.915</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.49942e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDQDGIVDIALDGAKLCRKLEETVPGTRIYYEYSPESYTGTELEFAVRICNEVIEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+DQDG +DIA  GA+LC+K EE VPGT +YYEYSPES+TGTELEFAVR+CN V++V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1011391451|ref|WP_062303864.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium subtropicum]</Hit_def>
+  <Hit_accession>WP_062303864</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.57872e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDQILDIATHGAMLCQKFEETIPDTRVFYEYSPESYTGTELEYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+K+EE +P T V+YEYSPES+TGTELE+AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1180471328|ref|WP_083979828.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina salsinemoris]</Hit_def>
+  <Hit_accession>WP_083979828</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.59411e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDEILDIATHGAMLCQKFEESIPDTRVFYEYSPESYTGTELEYAVRVCNAVLDVWQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+K+EE +P T V+YEYSPES+TGTELE+AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1011671456|ref|WP_062518455.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium gelatinilyticum]</Hit_def>
+  <Hit_accession>WP_062518455</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.60884e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDQILDIATHGAMLCQKFEETIPDTRVFYEYSPESYTGTELEYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+K+EE +P T V+YEYSPES+TGTELE+AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1011157537|ref|WP_062079024.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina globuliformis]</Hit_def>
+  <Hit_accession>WP_062079024</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.62331e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRADEDQILDIATHGAMLCQKFEETIPDTQVFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR D+D  LDIAT GA LC+K+EE +P T+V+YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|947143083|ref|WP_055916176.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Leifsonia sp. Leaf336] &gt;gi|945092159|gb|KQR54685.1| 2-isopropylmalate synthase [Leifsonia sp. Leaf336]</Hit_def>
+  <Hit_accession>WP_055916176</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.62709e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQRDVVFRTDQQGIIDIALSGARLCKQFESLVPGTEIYYEYSPESYTGTELEFAADICNQVLEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+R+VVFRTDQ G +DIA +GARLCK++E +VPGTE+YYEYSPES+TGTELEFA  +CN VL+V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1221671290|ref|WP_089799630.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. KH9]</Hit_def>
+  <Hit_accession>WP_089799630</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.62958e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDEDGIADIAVSGARFCRKYEELIPDTEVLYEYSPESYTGTELEYAVRVCNAVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+D+DG  DIA +GAR C+KYEE++P TEV YEYSPES+TGTELE+AVRVCNAVL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1097587750|emb|SFK04525.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. KH9]</Hit_def>
+  <Hit_accession>SFK04525</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.64786e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDEDGIADIAVSGARFCRKYEELIPDTEVLYEYSPESYTGTELEYAVRVCNAVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+D+DG  DIA +GAR C+KYEE++P TEV YEYSPES+TGTELE+AVRVCNAVL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|946972578|ref|WP_055893644.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Leifsonia sp. Root227] &gt;gi|946199234|gb|KRC50992.1| 2-isopropylmalate synthase [Leifsonia sp. Root227]</Hit_def>
+  <Hit_accession>WP_055893644</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.565</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.85356e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQRDVVFRTDQQGIVDIALEGARLCKQFEATVPGTEIYYEYSPESYTGTELEFAVDICNQVLDIFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+R+VVFRTDQ G +DIA  GARLCK++E  VPGTE+YYEYSPES+TGTELEFAV +CN VLD++EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1309165527|gb|PKQ26448.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Actinobacteria bacterium HGW-Actinobacteria-4]</Hit_def>
+  <Hit_accession>PKQ26448</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.214</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.13354e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRANMDEVQDIATQGALMCQKFEDMVPGTNVFYEYSPESYTGTELEYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR + D   DIAT GA +C+K+E+MVPGT V+YEYSPES+TGTELE+AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|969833864|ref|WP_058595592.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium testaceum] &gt;gi|968301003|gb|KTS06124.1| 2-isopropylmalate synthase [Microbacterium testaceum] &gt;gi|968309549|gb|KTS14015.1| 2-isopropylmalate synthase [Microbacterium testaceum] &gt;gi|968374904|gb|KTS65339.1| 2-isopropylmalate synthase [Microbacterium testaceum]</Hit_def>
+  <Hit_accession>WP_058595592</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.214</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.16724e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKKYEATIPETEVYYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCKKYE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1132139608|ref|WP_075828056.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulosimicrobium sp. CUA-896] &gt;gi|1130571690|gb|OLT54070.1| 2-isopropylmalate synthase [Cellulosimicrobium sp. CUA-896]</Hit_def>
+  <Hit_accession>WP_075828056</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.214</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.26307e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDPEGIIGIATDGARLCKKFEETVPGTTVYYEYSPESYTGTELEFAARICNEVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+D +G + IAT GARLCKK+EE VPGT VYYEYSPES+TGTELEFA R+CN VLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1113312315|gb|OJV76596.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. 73-92]</Hit_def>
+  <Hit_accession>OJV76596</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.214</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.33461e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHFYNSTSVLQRRVVFKSDEDGVLDIAVSGARFCKKYEELVPDTEVYYEYSPESYTGTELEYAVRVCNAVIDELDPT</Hsp_hseq>
+      <Hsp_midline>VH  NSTSVL+R VVF++D+DG LDIA +GAR CKKYEE+VP TEVYYEYSPES+TGTELE+AVRVCNAV+D  +PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1011008694|ref|WP_061965311.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina aurantiaca]</Hit_def>
+  <Hit_accession>WP_061965311</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.214</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.33541e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQRDVVFRKDMDEIMDIATHGAMLCQKFEETVPGTNVFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+R+VVFR D D  +DIAT GA LC+K+EE VPGT V+YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|503537409|ref|WP_013771485.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas fimi] &gt;gi|332339876|gb|AEE46459.1| 2-isopropylmalate synthase [Cellulomonas fimi ATCC 484]</Hit_def>
+  <Hit_accession>WP_013771485</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.864</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.41213e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIVDIAVSGARFCKKYEELVPDTEVFYEYSPESYTGTELEFAVRICNAVLEELQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG +DIA +GAR CKKYEE+VP TEV+YEYSPES+TGTELEFAVR+CNAVL+  +PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|947567746|ref|WP_056231278.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. Leaf203] &gt;gi|944584969|gb|KQM37032.1| 2-isopropylmalate synthase [Microbacterium sp. Leaf203]</Hit_def>
+  <Hit_accession>WP_056231278</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.864</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.42698e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDEQGIVDIALEGARLCKKYEATIPQTEVYYEYSPESYTGTELEFALRICNEVLEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD+ G +DIA  GARLCKKYE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1124407286|ref|WP_074695010.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium testaceum] &gt;gi|1086339214|emb|SDO97364.1| 2-isopropylmalate synthase [Microbacterium testaceum StLB037]</Hit_def>
+  <Hit_accession>WP_074695010</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.864</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.52029e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDEQGIVDIALEGARLCKKYEATIPQTEVYYEYSPESYTGTELEFALRICNEVLEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD+ G +DIA  GARLCKKYE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1011674169|ref|WP_062521135.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium luteum]</Hit_def>
+  <Hit_accession>WP_062521135</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.864</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.5799e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDQILDIATHGAMLCQKYEETIPDTRVFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+KYEE +P T V+YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|503649212|ref|WP_013883288.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas gilvus] &gt;gi|336103950|gb|AEI11769.1| 2-isopropylmalate synthase [Cellulomonas gilvus ATCC 13127]</Hit_def>
+  <Hit_accession>WP_013883288</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.214</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.65175e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQRDVVFRSDEDGIVDIAVSGARFCKKYEEMVPDTDVFYEYSPESYTGTELEFALRICNAVLEELQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+R+VVFR+D+DG +DIA +GAR CKKYEEMVP T+V+YEYSPES+TGTELEFA+R+CNAVL+  +PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1267700200|ref|WP_098458828.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Sanguibacter soli] &gt;gi|1261381093|gb|PFG35371.1| 2-isopropylmalate synthase [Sanguibacter soli]</Hit_def>
+  <Hit_accession>WP_098458828</Hit_accession>
+  <Hit_len>584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.864</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.69617e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRLDEDGIIDVAVDGAKLCKKYEDTVPGTTVFYEYSPESYTGTELEFAARICNAVIEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+DG +D+A  GA+LCKKYE+ VPGT V+YEYSPES+TGTELEFA R+CNAV++V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|1011604182|ref|WP_062464263.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium soli]</Hit_def>
+  <Hit_accession>WP_062464263</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.864</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.73028e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDEVLDIATHGAMLCQKYEETIPDTRVFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+KYEE +P T V+YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|1011386422|ref|WP_062299171.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium aestuarii]</Hit_def>
+  <Hit_accession>WP_062299171</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.864</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.75293e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDQILDIATHGAMLCQKYEETIPDTRVFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+KYEE +P T V+YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|1337263051|ref|WP_103209244.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium testaceum] &gt;gi|1334754411|gb|PNW08545.1| 2-isopropylmalate synthase [Microbacterium testaceum]</Hit_def>
+  <Hit_accession>WP_103209244</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.864</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>3.1904e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKQYEKTIPQTEVFYEYSPESYTGTELEFALRICNEVLEVFEPS</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCK+YE+ +P TEV+YEYSPES+TGTELEFA+R+CN VL+V+EP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|946914410|ref|WP_055837043.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. Leaf436] &gt;gi|945315322|gb|KQT72862.1| 2-isopropylmalate synthase [Microbacterium sp. Leaf436]</Hit_def>
+  <Hit_accession>WP_055837043</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.513</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>4.03845e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKQYEATIPQTEVYYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCK+YE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|947168940|ref|WP_055939977.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. Leaf179] &gt;gi|945123519|gb|KQR85902.1| 2-isopropylmalate synthase [Microbacterium sp. Leaf179]</Hit_def>
+  <Hit_accession>WP_055939977</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.513</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>4.03845e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKQYEATIPQTEVYYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCK+YE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|1087913959|ref|WP_070407935.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. BH-3-3-3] &gt;gi|1084379841|gb|AOX44526.1| 2-isopropylmalate synthase [Microbacterium sp. BH-3-3-3]</Hit_def>
+  <Hit_accession>WP_070407935</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.513</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>4.11531e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKQYEATIPQTEVYYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCK+YE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|969897326|ref|WP_058622262.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium testaceum] &gt;gi|968290817|gb|KTR96718.1| 2-isopropylmalate synthase [Microbacterium testaceum]</Hit_def>
+  <Hit_accession>WP_058622262</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.513</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>4.27346e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKKYEATVPETDVYYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCKKYE  VP T+VYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|960335405|ref|WP_058231544.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium enclense] &gt;gi|959324893|gb|KSU55444.1| 2-isopropylmalate synthase [Microbacterium enclense] &gt;gi|1086382068|emb|SDB95007.1| 2-isopropylmalate synthase [Microbacterium enclense]</Hit_def>
+  <Hit_accession>WP_058231544</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.513</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>4.27346e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKQYEATIPQTEVYYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCK+YE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|1011150629|ref|WP_062072193.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina sediminicola]</Hit_def>
+  <Hit_accession>WP_062072193</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.29253e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSIVQREVVFRADEDQIMDIATHGAMLCQKFEELIPDTQIFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+++REVVFR D+D  +DIAT GA LC+K+EE++P T+++YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|518918950|ref|WP_020074825.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-isopropylmalate synthase [Microbacteriaceae] &gt;gi|1085660896|emb|SDH32254.1| 2-isopropylmalate synthase [Leifsonia sp. 197AMF] &gt;gi|1085667768|emb|SDJ02579.1| 2-isopropylmalate synthase [Leifsonia sp. 466MF] &gt;gi|1085674787|emb|SDJ70628.1| 2-isopropylmalate synthase [Leifsonia sp. 157MF] &gt;gi|1085726591|emb|SDO06292.1| 2-isopropylmalate synthase [Leifsonia sp. 509MF] &gt;gi|1096102218|emb|SEM97684.1| 2-isopropylmalate synthase [Leifsonia sp. 467MF] &gt;gi|1096111867|emb|SFM22739.1| 2-isopropylmalate synthase [Leifsonia sp. 98AMF]</Hit_def>
+  <Hit_accession>WP_020074825</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.59193e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQRDVVFRTDQQGIVDIALNGARLCRKFEELVPGTTIYYEYSPESYTGTELEFAADICNQVLEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+R+VVFRTDQ G +DIA  GARLC+K+EE+VPGT +YYEYSPES+TGTELEFA  +CN VL+V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|516970601|ref|WP_018190923.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Leifsonia sp. 109]</Hit_def>
+  <Hit_accession>WP_018190923</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.63539e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQRDVVFRTDQQGIVDIALNGARLCRKFEELVPGTTIYYEYSPESYTGTELEFAADICNQVLEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+R+VVFRTDQ G +DIA  GARLC+K+EE+VPGT +YYEYSPES+TGTELEFA  +CN VL+V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|1011616172|ref|WP_062466690.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium aestuarii]</Hit_def>
+  <Hit_accession>WP_062466690</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.71403e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDEVLDIATHGAMLCQKYEESIPDTRIFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+KYEE +P T ++YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|1011401474|ref|WP_062313639.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium rhizosphaerae]</Hit_def>
+  <Hit_accession>WP_062313639</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.75871e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDEVLDIATHGAMLCQKYEESIPDTRIFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+KYEE +P T ++YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|1011403775|ref|WP_062315924.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium aestuarii]</Hit_def>
+  <Hit_accession>WP_062315924</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.80382e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDEVLDIATHGAMLCQKYEESIPDTRIFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+KYEE +P T ++YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|1056777956|ref|WP_068200586.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Isoptericola dokdonensis] &gt;gi|1024986627|gb|ANC29839.1| 2-isopropylmalate synthase [Isoptericola dokdonensis DS-3]</Hit_def>
+  <Hit_accession>WP_068200586</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.95627e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHIYNSTSVLQREVVFRSDMDGIVDIALQGARLCRKLEETVPGTTVYYEYSPESYTGTELEFAARICNEVLDVLEPT</Hsp_hseq>
+      <Hsp_midline>VH+ NSTSVL+REVVFR+D DG +DIA  GARLC+K EE VPGT VYYEYSPES+TGTELEFA R+CN VLDV EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gi|1381885904|ref|WP_107768335.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Nocardioides terrigena]</Hit_def>
+  <Hit_accession>WP_107768335</Hit_accession>
+  <Hit_len>578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.04608e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRRVVFGLDEDGIQDIAVRGAEICKKYEELVPGTDVFYEYSPESYTGTELEFAVRVCNAVLDVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R VVF  D+DG  DIA  GA +CKKYEE+VPGT+V+YEYSPES+TGTELEFAVRVCNAVLDV+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gi|517977545|ref|WP_019147753.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Timonella senegalensis]</Hit_def>
+  <Hit_accession>WP_019147753</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.24417e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRKDEDGIVDIALEGARLCKKFEDTIPDTDVYYEYSPESYTGTELEFAVRICNEVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+DG +DIA  GARLCKK+E+ +P T+VYYEYSPES+TGTELEFAVR+CN VL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gi|948230664|ref|WP_056888336.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Nocardioides sp. Soil777] &gt;gi|946449840|gb|KRF00028.1| 2-isopropylmalate synthase [Nocardioides sp. Soil777]</Hit_def>
+  <Hit_accession>WP_056888336</Hit_accession>
+  <Hit_len>578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.49342e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRRVVFGLDEDGIQDIAVRGAEICKKYEELVPGTDVFYEYSPESYTGTELEFAVRVCNAVLDVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R VVF  D+DG  DIA  GA +CKKYEE+VPGT+V+YEYSPES+TGTELEFAVRVCNAVLDV+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gi|1113293393|gb|OJV58074.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. 73-145]</Hit_def>
+  <Hit_accession>OJV58074</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.49654e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHFYNSTSVLQRRVVFNADEDGILDIAVSGARFCKKYEELVPDTEVFYEYSPESYTGTELEYAVRVCNAVLDELEPT</Hsp_hseq>
+      <Hsp_midline>VH  NSTSVL+R VVF  D+DG LDIA +GAR CKKYEE+VP TEV+YEYSPES+TGTELE+AVRVCNAVLD  EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gi|754852066|ref|WP_042212791.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium mangrovi] &gt;gi|1094278374|emb|SEI95757.1| 2-isopropylmalate synthase [Lysinimicrobium mangrovi]</Hit_def>
+  <Hit_accession>WP_042212791</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.54181e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDEVLDIATRGAMLCQKFEETIPDTKVFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+K+EE +P T+V+YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gi|503351813|ref|WP_013586474.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium testaceum] &gt;gi|323276207|dbj|BAJ76352.1| isopropylmalate/homocitrate/citramalate synthase [Microbacterium testaceum StLB037]</Hit_def>
+  <Hit_accession>WP_013586474</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.56415e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKKYEATVPETDVYYEYSPESYTGTELEFALRICNEVLEIFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCKKYE  VP T+VYYEYSPES+TGTELEFA+R+CN VL++++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gi|1232947924|gb|OZB49998.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. 14-74-6]</Hit_def>
+  <Hit_accession>OZB49998</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.73918e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHFYNSTSVLQRRVVFNADEDGILDIAVSGARFCKKYEELVPDTEVFYEYSPESYTGTELEYAVRVCNAVLDELEPT</Hsp_hseq>
+      <Hsp_midline>VH  NSTSVL+R VVF  D+DG LDIA +GAR CKKYEE+VP TEV+YEYSPES+TGTELE+AVRVCNAVLD  EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gi|1011213325|ref|WP_062133106.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina aestuarii]</Hit_def>
+  <Hit_accession>WP_062133106</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>5.75094e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSIVQREVVFRADEDQILDIATHGAMLCQKFEETIPDTQVFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+++REVVFR D+D  LDIAT GA LC+K+EE +P T+V+YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gi|1140818164|ref|WP_076675761.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-isopropylmalate synthase [Microbacterium] &gt;gi|1086310933|emb|SDO78203.1| 2-isopropylmalate synthase [Microbacterium sp. ru370.1] &gt;gi|1133983345|emb|SIT89088.1| 2-isopropylmalate synthase [Microbacterium sp. RU1D]</Hit_def>
+  <Hit_accession>WP_076675761</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.162</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.83262e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDEQGIVDIALEGARLCKKYEATIPQTEVYYEYSPESYTGTELEFALRICNDVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD+ G +DIA  GARLCKKYE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gi|654579532|ref|WP_028046665.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Cellulomonas sp. URHE0023]</Hit_def>
+  <Hit_accession>WP_028046665</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>6.13899e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRSDEDGIVDIAVSGARFCKKYEELVPDTDVYYEYSPESYTGTELEYALRICNAVLDELAPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFR+D+DG +DIA +GAR CKKYEE+VP T+VYYEYSPES+TGTELE+A+R+CNAVLD   PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gi|1180641651|ref|WP_084126860.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina sp. NBRC 110054]</Hit_def>
+  <Hit_accession>WP_084126860</Hit_accession>
+  <Hit_len>588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>6.58066e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDEIVDIATHGAMLCQKFEETIPETRVFYEYSPESYTGTELEYAVRVCNAVLDVWQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  +DIAT GA LC+K+EE +P T V+YEYSPES+TGTELE+AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gi|1020133899|ref|WP_063257701.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. T32] &gt;gi|1017153485|gb|KZE41679.1| 2-isopropylmalate synthase [Microbacterium sp. T32]</Hit_def>
+  <Hit_accession>WP_063257701</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>6.65518e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKKYEATIPETDVYYEYSPESYTGTELEFALRICNEVLEIFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCKKYE  +P T+VYYEYSPES+TGTELEFA+R+CN VL++++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|1234103854|ref|WP_094736563.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Rhodococcus sp. 06-1477-1B] &gt;gi|1233371870|gb|OZD30930.1| 2-isopropylmalate synthase [Rhodococcus sp. 06-1477-1B]</Hit_def>
+  <Hit_accession>WP_094736563</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>6.9108e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDEQGIVDIALEGARLCKRYEKTIPQTEVYYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD+ G +DIA  GARLCK+YE+ +P TEVYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|1381890271|ref|WP_107772475.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Nocardioides sediminis]</Hit_def>
+  <Hit_accession>WP_107772475</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>6.97279e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRRVVFGLDEDGILDIAVRGAEICKKYEELVPGTDVFYEYSPESYTGTELEFAVRICNAVLDVFGPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R VVF  D+DG LDIA  GA +CKKYEE+VPGT+V+YEYSPES+TGTELEFAVR+CNAVLDV+ PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|1142805981|ref|WP_077051523.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. CSI-V] &gt;gi|1140144444|gb|ONI62118.1| 2-isopropylmalate synthase [Microbacterium sp. CSI-V]</Hit_def>
+  <Hit_accession>WP_077051523</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>7.10894e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGIVDIALEGARLCKKYEATIPETDVYYEYSPESYTGTELEFALRICNEVLEIFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCKKYE  +P T+VYYEYSPES+TGTELEFA+R+CN VL++++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gi|1223194177|ref|WP_091234253.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. 3J1]</Hit_def>
+  <Hit_accession>WP_091234253</Hit_accession>
+  <Hit_len>584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>7.82529e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDKQGIIDIALEGARLCRQYEKTIPGTKVYYEYSPESYTGTELEFAVDVCNQVIEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD+ G +DIA  GARLC++YE+ +PGT+VYYEYSPES+TGTELEFAV VCN V++V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|946896013|ref|WP_055818799.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-isopropylmalate synthase [Leifsonia] &gt;gi|945652449|gb|KQX07084.1| 2-isopropylmalate synthase [Leifsonia sp. Root1293] &gt;gi|945958253|gb|KRA11367.1| 2-isopropylmalate synthase [Leifsonia sp. Root60]</Hit_def>
+  <Hit_accession>WP_055818799</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.812</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>8.08779e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQRDVVFRTDKQGIIDIALNGARLCKQMESMVPGTTVYYEYSPESYTGTELEFALDICNQVLDVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+R+VVFRTD+ G +DIA  GARLCK+ E MVPGT VYYEYSPES+TGTELEFA+ +CN VLDV+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gi|1175557353|ref|WP_082099052.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium iriomotense]</Hit_def>
+  <Hit_accession>WP_082099052</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.461</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>8.88633e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRADEDQILDIATHGAMLCQKFEETIPDTRVFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR D+D  LDIAT GA LC+K+EE +P T V+YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|545647236|ref|WP_021754928.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Leifsonia xyli] &gt;gi|545576364|gb|AGW41476.1| 2-isopropylmalate synthase [Leifsonia xyli subsp. cynodontis DSM 46306]</Hit_def>
+  <Hit_accession>WP_021754928</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.461</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>9.39296e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRSDRQGIVDIALTGARLCRRFESLVPGTEIYYEYSPESYTGTELEFAADICNQVLEIFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR+D+ G +DIA TGARLC+++E +VPGTE+YYEYSPES+TGTELEFA  +CN VL+++EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gi|1381819136|ref|WP_107706110.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Nocardioides sp. KCTC 49020]</Hit_def>
+  <Hit_accession>WP_107706110</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.111</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>9.75605e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRRVVFGLDEEGILDIAVRGAEICKKYEELLPDTEIYYEYSPESYTGTELEYAVRVCNAVIDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R VVF  D++G LDIA  GA +CKKYEE++P TE+YYEYSPES+TGTELE+AVRVCNAV+DVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gi|1221974920|ref|WP_090037143.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-isopropylmalate synthase [Leifsonia] &gt;gi|1093245171|emb|SEH85896.1| 2-isopropylmalate synthase [Leifsonia sp. CL154] &gt;gi|1097497899|emb|SFL48352.1| 2-isopropylmalate synthase [Leifsonia sp. CL147]</Hit_def>
+  <Hit_accession>WP_090037143</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.461</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>9.93871e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRTDQQGIIDIALNGARLCRQFESLVPGTAIYYEYSPESYTGTELEFAAEICNQVLEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFRTDQ G +DIA  GARLC+++E +VPGT +YYEYSPES+TGTELEFA  +CN VL+V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gi|1134249497|ref|WP_076490380.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. RURRCA19A] &gt;gi|1131816313|emb|SIR53740.1| 2-isopropylmalate synthase [Microbacterium sp. RURRCA19A]</Hit_def>
+  <Hit_accession>WP_076490380</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.461</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>1.00736e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGVVDIALEGARLCKKYEATIPETQVFYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCKKYE  +P T+V+YEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gi|498534083|ref|WP_010832561.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Nocardioides sp. CF8] &gt;gi|490487989|gb|EON24391.1| 2-isopropylmalate synthase [Nocardioides sp. CF8]</Hit_def>
+  <Hit_accession>WP_010832561</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.111</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.04236e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRRVVFGLDEEGILDIAVRGAEICKKYEELLPDTEIYYEYSPESYTGTELEYAVRVCNAVIDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R VVF  D++G LDIA  GA +CKKYEE++P TE+YYEYSPES+TGTELE+AVRVCNAV+DVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gi|1221796996|ref|WP_089911108.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Leifsonia sp. 21MFCrub1.1] &gt;gi|1088726352|emb|SEA83271.1| 2-isopropylmalate synthase [Leifsonia sp. 21MFCrub1.1]</Hit_def>
+  <Hit_accession>WP_089911108</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.461</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>1.06156e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQRDVVFRTDQQGIIDIALNGARLCRQFEELVPGTTIYYEYSPESYTGTELEFAADICNQVLEVFEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+R+VVFRTDQ G +DIA  GARLC+++EE+VPGT +YYEYSPES+TGTELEFA  +CN VL+V+EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gi|1064033782|gb|ODT38300.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium sp. SCN 71-17] &gt;gi|1113312757|gb|OJV77036.1| 2-isopropylmalate synthase [Microbacterium sp. 71-36]</Hit_def>
+  <Hit_accession>ODT38300</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.111</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.19346e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDQQGVVDIALEGARLCKKYEATIPETQVFYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTDQ G +DIA  GARLCKKYE  +P T+V+YEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gi|1309155711|gb|PKQ18516.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase, partial [Actinobacteria bacterium HGW-Actinobacteria-8]</Hit_def>
+  <Hit_accession>PKQ18516</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.605</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>1.24587e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQRDVVFRANKDEIRDIATHGAMLCQKFEELIPETQVFYEYSPESYTGTELEYAVEVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+R+VVFR ++D   DIAT GA LC+K+EE++P T+V+YEYSPES+TGTELE+AV VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gi|918235162|ref|WP_052367135.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Paraoerskovia marina] &gt;gi|1085955296|emb|SDS39983.1| 2-isopropylmalate synthase [Paraoerskovia marina]</Hit_def>
+  <Hit_accession>WP_052367135</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.111</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.28141e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQREVVFRTDEDGIVAIAVDGARLCKKFEETIPGTAVYYEYSPESYTGTELEFAARICNEVLEVLEPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+REVVFRTD+DG + IA  GARLCKK+EE +PGT VYYEYSPES+TGTELEFA R+CN VL+V EPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gi|1180591815|ref|WP_084077974.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina sp. NBRC 110057]</Hit_def>
+  <Hit_accession>WP_084077974</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.111</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.28188e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRANEDEIMDIATHGAMLCQKFEETIPDTQVFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR ++D  +DIAT GA LC+K+EE +P T+V+YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gi|1194901556|gb|OUD82935.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Clavibacter michiganensis subsp. michiganensis] &gt;gi|1194936086|gb|OUE16191.1| 2-isopropylmalate synthase [Clavibacter michiganensis subsp. michiganensis]</Hit_def>
+  <Hit_accession>OUD82935</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.502</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>1.28604e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDKQGIIDIALEGARLCKRYEETIPEVDVYYEYSPESYTGTELEFAAEICNRVVEVLDPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD+ G +DIA  GARLCK+YEE +P  +VYYEYSPES+TGTELEFA  +CN V++V +PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gi|506252041|ref|WP_015771816.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Jonesia denitrificans] &gt;gi|256686295|gb|ACV09188.1| 2-isopropylmalate synthase [Jonesia denitrificans DSM 20603] &gt;gi|1210929579|gb|ASE09538.1| 2-isopropylmalate synthase [Jonesia denitrificans]</Hit_def>
+  <Hit_accession>WP_015771816</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.111</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.36164e-28</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEP</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSIVQREVVFRSDEDGIVDIALEGARLCKKFEDTIPDTDIYYEYSPESYTGTELEFAVRICNEVLDVLEP</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+++REVVFR+D+DG +DIA  GARLCKK+E+ +P T++YYEYSPES+TGTELEFAVR+CN VLDV EP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gi|1180616519|ref|WP_084102124.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina sp. NBRC 110051]</Hit_def>
+  <Hit_accession>WP_084102124</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.76</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.42192e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRANEDEIMDIATHGAMLCQKFEETIPDTQVFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR ++D  +DIAT GA LC+K+EE +P T+V+YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gi|1383173866|ref|WP_108345306.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Nocardioides sp. IB-3] &gt;gi|1379036496|gb|PUA80501.1| 2-isopropylmalate synthase [Nocardioides sp. IB-3]</Hit_def>
+  <Hit_accession>WP_108345306</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.76</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.42338e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSTLQRRVVFGLDEDGILDIAVRGAEICKKYEELLPDTDIYYEYSPESYTGTELEYALRVCNAVIDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS L+R VVF  D+DG LDIA  GA +CKKYEE++P T++YYEYSPES+TGTELE+A+RVCNAV+DVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gi|1180645496|ref|WP_084130698.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Demequina sp. NBRC 110055]</Hit_def>
+  <Hit_accession>WP_084130698</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.76</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.47655e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRANEDEIMDIATHGAMLCQKFEETIPDTQVFYEYSPESYTGTELEYAVKVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFR ++D  +DIAT GA LC+K+EE +P T+V+YEYSPES+TGTELE+AV+VCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gi|1011376339|ref|WP_062289104.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Lysinimicrobium flavum]</Hit_def>
+  <Hit_accession>WP_062289104</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.76</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.52021e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSILQREVVFRANEDEVLDIATHGAMLCQKYEETIPDTRIFYEYSPESYTGTELAYAVRVCNAVLDVWKPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTS+L+REVVFR ++D  LDIAT GA LC+KYEE +P T ++YEYSPES+TGTEL +AVRVCNAVLDVW+PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gi|1384295186|gb|PVE70479.1|</Hit_id>
+  <Hit_def>2-isopropylmalate synthase [Microbacterium testaceum]</Hit_def>
+  <Hit_accession>PVE70479</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.76</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.72299e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VHLSNSTSVLRREVVFRTDQDGALDIATTGARLCKKYEEMVPGTEVYYEYSPESFTGTELEFAVRVCNAVLDVWEPT</Hsp_qseq>
+      <Hsp_hseq>VHLYNSTSVLQREVVFRTDEQGIVDIALEGARLCKQYEATIPQTEVYYEYSPESYTGTELEFALRICNEVLEVFQPT</Hsp_hseq>
+      <Hsp_midline>VHL NSTSVL+REVVFRTD+ G +DIA  GARLCK+YE  +P TEVYYEYSPES+TGTELEFA+R+CN VL+V++PT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>121589059</Statistics_db-num>
+      <Statistics_db-len>1771453730</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.024</Statistics_kappa>
+      <Statistics_lambda>0.243</Statistics_lambda>
+      <Statistics_entropy>0.1</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

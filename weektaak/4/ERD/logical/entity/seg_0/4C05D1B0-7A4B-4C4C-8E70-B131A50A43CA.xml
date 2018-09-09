@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C05D1B0-7A4B-4C4C-8E70-B131A50A43CA" name="BLAST">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:05:10 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date" id="86BF6756-2DA1-D3F5-BE30-0BF475661D1B">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:05:50 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BLAST_description" id="E33DF8F9-9A70-492D-0F77-F8AE241FF5CA">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:06:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Query_id" id="953D405B-9840-24EE-4831-681E249AFB51">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:09:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65526A80-2FDD-BAF8-570E-8CA745C90E03" name="BLAST PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:29:26 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>953D405B-9840-24EE-4831-681E249AFB51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

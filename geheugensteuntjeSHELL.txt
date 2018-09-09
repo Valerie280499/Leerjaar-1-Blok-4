@@ -1,0 +1,6 @@
+import sys
+sys.path.insert(0, '/home/owe4_pg12/public_html/')
+from app.py import app as application
+
+chmod go+rx bestand; 
+ls -al; alle permissions inzien

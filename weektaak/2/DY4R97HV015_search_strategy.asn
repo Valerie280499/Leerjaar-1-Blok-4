@@ -1,0 +1,211 @@
+Blast4-request ::= {
+  body queue-search {
+    program "blastx",
+    service "plain",
+    queries bioseq-set {
+      seq-set {
+        seq {
+          id {
+            local str "Query_259277"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">HWI-M02942:21:000000000-ACNW4:1:1101:10943:2630/1"
+                }
+              }
+            },
+            title "HWI-M02942:21:000000000-ACNW4:1:1101:10943:2630/1"
+          },
+          inst {
+            repr raw,
+            mol na,
+            length 301,
+            seq-data ncbi2na '0D594DB9A5A684FF695926820F402BF617C5855B857A59CC
+8A09D8097F5D516C5BE929A45E111A982A4AA029998AE7415A5445A62BAEAC6B8D8E5D65892B8A
+827B757669E69125E5EA79ED40'H
+          }
+        },
+        seq {
+          id {
+            local str "Query_259278"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">HWI-M02942:21:000000000-ACNW4:1:1101:10943:2630/2"
+                }
+              }
+            },
+            title "HWI-M02942:21:000000000-ACNW4:1:1101:10943:2630/2"
+          },
+          inst {
+            repr raw,
+            mol na,
+            length 301,
+            seq-data ncbi2na '4952929EE592598A8849F5745E769A2936345B15145D96BB
+A96AF89176665FD5795F656EED2B965E506B1AEA280A7F627D7732694AB46AB6B0AD805FD83DF5
+AE5A5803A59696563A6A2D6540'H
+          }
+        },
+        seq {
+          id {
+            local str "Query_259279"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">HWI-M02942:21:000000000-ACNW4:1:1101:19821:2914/1"
+                }
+              }
+            },
+            title "HWI-M02942:21:000000000-ACNW4:1:1101:19821:2914/1"
+          },
+          inst {
+            repr raw,
+            mol na,
+            length 301,
+            seq-data ncbi2na 'DBA2AA899FA655A99DEAA8992A8CB84FAC862150ADD86B99
+99A6329A9BA7E82AB9258D889895AE1B53B6A9956E28D43998A29954655656E24658E8BD2559A6
+1820BD689D699F75865A968880'H
+          }
+        },
+        seq {
+          id {
+            local str "Query_259280"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">HWI-M02942:21:000000000-ACNW4:1:1101:19821:2914/2"
+                }
+              }
+            },
+            title "HWI-M02942:21:000000000-ACNW4:1:1101:19821:2914/2"
+          },
+          inst {
+            repr raw,
+            mol na,
+            length 301,
+            seq-data ncbi2na 'A7EF62562E6657F66D8AA3958A3F65F6A88D5168FA85936A
+5B17626A63A966D58D15D886A6E6427BDE69562DBD1959DD995E6DA1899685D69177DB5596A681
+74D65E546966A6E99955966640'H
+          }
+        }
+      }
+    },
+    subject database "nr",
+    algorithm-options {
+      {
+        name "WordSize",
+        value integer 6
+      },
+      {
+        name "WordThreshold",
+        value integer 21
+      },
+      {
+        name "EvalueThreshold",
+        value cutoff e-value { 1, 10, 1 }
+      },
+      {
+        name "UngappedMode",
+        value boolean FALSE
+      },
+      {
+        name "PercentIdentity",
+        value real { 0, 10, 0 }
+      },
+      {
+        name "HitlistSize",
+        value integer 100
+      },
+      {
+        name "EffectiveSearchSpace",
+        value big-integer 0
+      },
+      {
+        name "DbLength",
+        value big-integer 0
+      },
+      {
+        name "WindowSize",
+        value integer 40
+      },
+      {
+        name "SegFiltering",
+        value boolean TRUE
+      },
+      {
+        name "MaskAtHash",
+        value boolean FALSE
+      },
+      {
+        name "SegFilteringWindow",
+        value integer 12
+      },
+      {
+        name "SegFilteringLocut",
+        value real { 22, 10, -1 }
+      },
+      {
+        name "SegFilteringHicut",
+        value real { 25, 10, -1 }
+      },
+      {
+        name "MatrixName",
+        value string "BLOSUM80"
+      },
+      {
+        name "GapOpeningCost",
+        value integer 10
+      },
+      {
+        name "GapExtensionCost",
+        value integer 1
+      },
+      {
+        name "StrandOption",
+        value strand-type both-strands
+      },
+      {
+        name "QueryGeneticCode",
+        value integer 1
+      },
+      {
+        name "CompositionBasedStats",
+        value integer 2
+      }
+    },
+    program-options {
+      {
+        name "EntrezQuery",
+        value string "all [filter] NOT(txid2759 [ORGN])"
+      }
+    },
+    format-options {
+      {
+        name "Web_JobTitle",
+        value string "4 sequences BLASTx"
+      },
+      {
+        name "Web_OrganismName",
+        value string "eukaryotes (taxid:2759)"
+      }
+    }
+  }
+}
+
+

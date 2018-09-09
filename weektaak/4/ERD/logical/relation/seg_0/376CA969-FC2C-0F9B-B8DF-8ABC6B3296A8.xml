@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sequentie/MATCH" directorySegmentName="seg_0" id="376CA969-FC2C-0F9B-B8DF-8ABC6B3296A8">
+<createdBy>vverh</createdBy>
+<createdTime>2018-05-17 18:31:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="01B9C200-62FF-55E4-696D-423647AF99C7" value="true"/>
+</engineerTo>
+<sourcePk>CE5ECA63-555F-159A-C7DA-2A1CE9CA88B5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>386B7B9D-9551-52E3-B3E5-D151258A7026</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>824ACB2D-5C72-FFFF-A3CB-82A7626A24EA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
